@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+header{
+    background:  #322E41;
+}
+
+
+nav{
+    max-width: 1140px;
+    width: 100%;
+    padding: 14px 15px;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+   align-items: center;
+}
+
+
+.nav_list{
+    display: flex;
+}
+
+.nav_item{
+    margin-left: 15px;
+}
+
+.nav_item:hover{
+    border-bottom: 1px solid white;
+}
+
+
+.nav_link{
+    padding:  0 15px;
+}
