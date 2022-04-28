@@ -13,6 +13,10 @@ ul{
     list-style: none;
 }
 
+body{
+    font-family: 'Roboto';
+}
+
 
 header{
     background:  #322E41;
@@ -38,11 +42,36 @@ nav{
     margin-left: 15px;
 }
 
-.nav_item:hover{
-    border-bottom: 1px solid white;
+
+.nav_link{
+    padding:  25px 15px;
+    color: white;
+    transition: 400ms;
 }
 
 
-.nav_link{
-    padding:  0 15px;
+.nav_link:hover{
+    border-bottom: 2px solid gold;
+}
+
+
+
+.banner{
+    background: url(../img/header\ banner.png);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-title{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.banner-desc{
+    color: white;
+    font-size: 18px;
 }
